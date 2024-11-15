@@ -30,4 +30,4 @@ image_path = "img\img1.jpg"
 confidence_threshold = 0.6 
 
 sheep_count = count_sheep(image_path, confidence_threshold)
-print(f"Количество овец на изображении: {sheep_count}")
+print(f"Count of sheeps: {sheep_count}")
