@@ -5,7 +5,7 @@ from PIL import Image
 model = YOLO("yolov8n.pt")
 
 
-def count_sheep(image_path, confidence_threshold=0.5, path_to_save = None):
+def count_sheep(image_path, confidence_threshold=0.5):
     results = model(image_path)
     
     filtered_boxes = []
